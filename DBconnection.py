@@ -1,7 +1,7 @@
 import psycopg2
 import sys
 
-# Connection parameters, yours will be different
+# Connection parameters
 param_dic = {
     "host"      : "192.168.1.11",
     "port"      : "5432",
@@ -22,7 +22,5 @@ def connect(params_dic):
         sys.exit(1)
     print("Connection successful")
     return conn
-
-
 
 conn = connect(param_dic)
