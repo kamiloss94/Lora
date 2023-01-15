@@ -28,12 +28,6 @@ async def read_root():
 
 if __name__ == "__main__":
 
-#bytes = df[['data']]
-#print(df[['device_name','data']])
-
-#ulsn = Meter.SerialNumber(SN = df[["device_name"]])
-#print(df.at[30,'data']
-
     print(payload)
     print(M.Meter.payloadtolist(payload))
     print(M.Meter.getmeterunixtime(payloadtolist))
